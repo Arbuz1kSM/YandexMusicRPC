@@ -2,7 +2,7 @@
 
 Discord Rich Presence для настольной Яндекс Музыки на Windows.
 
-[Скачать установщик](https://github.com/Arbuz1kSM/YandexMusicRPC/releases/download/v1.0.0/YandexMusicRPC-1.0.0-Setup.exe) · [Релизы](https://github.com/Arbuz1kSM/YandexMusicRPC/releases) · [Сообщить об ошибке](https://github.com/Arbuz1kSM/YandexMusicRPC/issues) · [Telegram](https://t.me/Arbuz1k_TG)
+[Релизы](https://github.com/Arbuz1kSM/YandexMusicRPC/releases) · [Сообщить об ошибке](https://github.com/Arbuz1kSM/YandexMusicRPC/issues) · [Telegram](https://t.me/Arbuz1k_TG)
 
 ![Настройки оформления Discord](docs/images/discord.png)
 
