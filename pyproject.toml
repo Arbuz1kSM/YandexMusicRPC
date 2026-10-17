@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arbuz-yandex-music-rpc"
+version = "1.0.0"
+description = "Discord Rich Presence for Yandex Music on Windows"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { text = "MIT" }
+authors = [{ name = "Arbuz1k_SM" }]
+dependencies = [
+  "PySide6>=6.8,<7",
+  "qasync>=0.28,<1",
+  "pypresence>=4.6.2,<5",
+  "yandex-music[async]>=3.0,<4",
+  "aiohttp>=3.11,<4",
+  "keyring>=25.6,<26",
+  "pycaw>=20240210; platform_system == 'Windows'",
+  "packaging>=24.2,<27",
+  "Pillow>=11,<13",
+  "winrt-runtime==3.2.1; platform_system == 'Windows'",
+  "winrt-Windows.Foundation==3.2.1; platform_system == 'Windows'",
+  "winrt-Windows.Foundation.Collections==3.2.1; platform_system == 'Windows'",
+  "winrt-Windows.Media==3.2.1; platform_system == 'Windows'",
+  "winrt-Windows.Media.Control==3.2.1; platform_system == 'Windows'",
+  "winrt-Windows.Storage.Streams==3.2.1; platform_system == 'Windows'",
+]
+
+[project.optional-dependencies]
+dev = [
+  "PyInstaller>=6.14,<7",
+  "ruff>=0.12,<1",
+  "pefile>=2023.2.7",
+]
+
+[project.urls]
+Homepage = "https://github.com/Arbuz1kSM/YandexMusicRPC"
+Issues = "https://github.com/Arbuz1kSM/YandexMusicRPC/issues"
+
+[project.scripts]
+yandex-music-rpc = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]

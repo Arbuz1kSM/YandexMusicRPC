@@ -1,0 +1,16 @@
+PySide6>=6.8,<7
+qasync>=0.28,<1
+pypresence>=4.6.2,<5
+yandex-music[async]>=3.0,<4
+aiohttp>=3.11,<4
+keyring>=25.6,<26
+pycaw>=20240210
+packaging>=24.2,<27
+Pillow>=11,<13
+winrt-runtime==3.2.1
+winrt-Windows.Foundation==3.2.1
+winrt-Windows.Foundation.Collections==3.2.1
+winrt-Windows.Media==3.2.1
+winrt-Windows.Media.Control==3.2.1
+winrt-Windows.Storage.Streams==3.2.1
+pywin32-ctypes

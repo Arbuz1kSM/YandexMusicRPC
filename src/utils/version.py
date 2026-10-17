@@ -1,0 +1,6 @@
+APP_NAME = "Yandex Music RPC"
+APP_VERSION = "1.0.0"
+AUTHOR = "Arbuz1k_SM"
+AUTHOR_URL = "https://t.me/Arbuz1k_TG"
+PROJECT_URL = "https://github.com/Arbuz1kSM/YandexMusicRPC"
+REPOSITORY = "Arbuz1kSM/YandexMusicRPC"
